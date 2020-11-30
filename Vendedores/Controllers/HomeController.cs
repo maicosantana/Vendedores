@@ -17,7 +17,11 @@ namespace Vendedores.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Descricao"] = "Dados para Contato";
+            ViewData["MeuEmail"] = "maico.santana@hotmail.com";
+            ViewData["Celular"] = 24981335783;
+            ViewData["Telefone"] = 2433441711;
+
 
             return View();
         }
